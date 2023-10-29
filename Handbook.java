@@ -32,9 +32,9 @@ public void addFromConsole(){
 
         try (Scanner in = new Scanner(System.in)) {
             System.out.print("Введите name: ");
-            String name = in.nextLine();
+            String name = in.next();
             System.out.print("Введите phoneNumber: ");
-            String phoneNumber = in.nextLine();
+            String phoneNumber = in.next();
             System.out.print("Введите experience: ");
             int experience = in.nextInt();
             System.out.print("Введите persNumber: ");
