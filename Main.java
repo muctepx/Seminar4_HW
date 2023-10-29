@@ -16,7 +16,7 @@ public class Main {
         // Поиск 
         try (Scanner in = new Scanner(System.in)) {
             System.out.print("Поиск телефона по имени. Введите имя: ");
-            String name = in.nextLine();
+            String name = in.next();
             System.out.println(hb.findPhoneToName(name));
             System.out.print("Поиск сотрудника по стажу. Введите стаж: ");
             int experience = in.nextInt();
